@@ -1,0 +1,11 @@
+overwrite: true
+schema: 'https://rcore-dev-5sk77.ondigitalocean.app/shop-api'
+documents: 'graphql/**/*.graphql'
+generates:
+  services/graphql/autogen/graphql.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-query
+    config:
+      fetcher: graphql-request

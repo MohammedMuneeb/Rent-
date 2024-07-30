@@ -1,0 +1,9 @@
+{
+  "apiEndpoint": "https://rentity.prismic.io/api/v2",
+  "apiEndpointProd": "https://rentity-prod.prismic.io/api/v2",
+  "libraries": [
+    "@/slices"
+  ],
+  "localSliceSimulatorURL": "http://localhost:3002/slice-simulator",
+  "_latest": "0.6.1"
+}
